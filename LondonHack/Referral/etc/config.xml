@@ -1,0 +1,7 @@
+<config>
+    <modules>
+        <LondonHack_Referral>
+            <version>0.1.0</version>
+        </LondonHack_Referral>
+    </modules>
+</config>
