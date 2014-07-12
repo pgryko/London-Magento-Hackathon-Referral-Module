@@ -4,4 +4,17 @@
             <version>0.1.0</version>
         </LondonHack_Referral>
     </modules>
+    <global>
+        <events>
+            <controller_front_init_routers>
+                <observers>
+                    <LondonHack_Referral_model_observer>
+                        <type>singleton</type>
+                        <class>LondonHack_Referral_Model_Observer</class>
+                        <method>checkForConfigRequest</method>
+                    </LondonHack_Referral_model_observer>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+    </global>
 </config>
